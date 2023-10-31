@@ -1,3 +1,4 @@
+export { useProduct } from './hooks/useProduct';
 export { useProducts } from './hooks/useProducts';
 
 export { ProductCard } from './components/ProductCard';
@@ -14,6 +15,7 @@ export { CompleteListPage } from './pages/CompleteListPage';
 export { MensPage } from './pages/MensPage';
 export { NewProduct } from './pages/NewProduct';
 export { WomensPage } from './pages/WomensPage';
+export { ProductById } from './pages/ProductById';
 
 export * as productaActions from './services/action'
 
