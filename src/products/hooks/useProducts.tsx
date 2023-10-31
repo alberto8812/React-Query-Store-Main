@@ -7,6 +7,8 @@ interface Options {
 }//esto es para que la busqueda sea felxible
 
 export const useProducts = ({filterKey}:Options) => {
+
+
   
     const {isLoading,isError,error,data:Products=[],isFetched}=useQuery(
 
