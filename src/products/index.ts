@@ -1,3 +1,4 @@
+export { useProductMutation } from './hooks/useProductMutation';
 export { usePrefetchProducts } from './hooks/usePrefetchProducts';
 export { useProduct } from './hooks/useProduct';
 export { useProducts } from './hooks/useProducts';
